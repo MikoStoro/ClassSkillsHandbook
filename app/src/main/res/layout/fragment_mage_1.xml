@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height = "wrap_content"
+        android:layout_width="match_parent">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+        <LinearLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+        >
+
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/magiczny_pocisk_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/magiczny_pocisk_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/magiczna_strzala_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/magiczna_strzala_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/magiczny_szpon_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/magiczny_szpon_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/magiczna_wlocznia_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/magiczna_wlocznia_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/bariera_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/bariera_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/sciana_plomieni_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/sciana_plomieni_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/piekielne_wrota_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/piekielne_wrota_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/sanktuarium_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/sanktuarium_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_2_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/twierdza_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/twierdza_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/fala_goraca_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/fala_goraca_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/fala_plomieni_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/fala_plomieni_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/smocza_wlocznia_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/smocza_wlocznia_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/przyzwanie_plomieni_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/przyzwanie_plomieni_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_3_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/smoczy_gniew_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/smoczy_gniew_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/podmuch_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/podmuch_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/telekineza_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/telekineza_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/wladza_nad_materia_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/wladza_nad_materia_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_4_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/teleportacja_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/teleportacja_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/uzdrawiajacy_dotyk_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/uzdrawiajacy_dotyk_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/strumien_zycia_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/strumien_zycia_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_5_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/powstan_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/powstan_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_5_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/oczyszczenie_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/oczyszczenie_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_5_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/linia_zycia_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/linia_zycia_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/mageDropdown_5_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/mage_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/mage_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/wskrzeszenie_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/wskrzeszenie_title"
+            />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

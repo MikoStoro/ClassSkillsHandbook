@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height = "wrap_content"
+        android:layout_width="match_parent">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+<LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/adept_pancerza_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/adept_pancerza_title"
+           />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bieglosc_pancerza_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bieglosc_pancerza_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/maestria_pancerza_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/maestria_pancerza_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/krzepa_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/krzepa_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/potezny_cios_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/potezny_cios_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/destrukcja_pancerza_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/destrukcja_pancerza_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/wstrzasajace_uderzenia_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/wstrzasajace_uderzenia_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/ostatni_szept_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/ostatni_szept_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/cios_tarcza_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/cios_tarcza_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/odbicie_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/odbicie_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/zmiazdzenie_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/zmiazdzenie_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bieglosc_stylu_walki_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bieglosc_stylu_walki_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bron_jednoreczna_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bron_jednoreczna_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/dwie_bronie_jednoreczne_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/dwie_bronie_jednoreczne_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_4_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bron_jednoreczna_i_tarcza_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bron_jednoreczna_i_tarcza_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_4_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bron_dwureczna_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bron_dwureczna_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/szarza_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/szarza_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_5_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/stan_za_mna_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/stan_za_mna_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_5_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/fala_stali_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/fala_stali_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/warriorDropdown_5_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/warrior_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/warrior_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/zapal_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/zapal_title"
+    />
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

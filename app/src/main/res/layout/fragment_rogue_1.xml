@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height = "wrap_content"
+        android:layout_width="match_parent">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+        <LinearLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+        >
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/precyzyjne_pchniecie_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/precyzyjne_pchniecie_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/cios_w_plecy_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/cios_w_plecy_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/ostatni_szept_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/ostatni_szept_rogue_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/z_mroku_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/z_mroku_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/plaszcz_nocy_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/plaszcz_nocy_rogue_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/rozmycie_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/rozmycie_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/krok_w_ciemnosc_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/krok_w_ciemnosc_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/duch_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/duch_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/bieglosc_broni_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/bieglosc_broni_rogue_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/bieglosc_broni_miecz_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/bieglosc_broni_miecz_rogue_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/bieglosc_broni_sztylet_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/bieglosc_broni_sztylet_rogue_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/bieglosc_broni_kusza_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/bieglosc_broni_kusza_rogue_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/plynnosc_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/plynnosc_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/przewrot_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/przewrot_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/piruet_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/piruet_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_4_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/odwet_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/odwet_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/mordercza_seria_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/mordercza_seria_rogue_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/mordercza_seria_II_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/mordercza_seria_II_rogue_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_5_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/mordercza_seria_III_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/mordercza_seria_III_rogue_title"
+            />
+
+            <hakobastvatsatryan.DropdownTextView
+                    android:id="@+id/rogueDropdown_5_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bg_drawable_expanded="@drawable/rogue_dropdown_expanded"
+                    app:bg_drawable_regular="@drawable/rogue_dropdown_regular"
+                    app:content_padding="1dp"
+                    app:content_text="@string/niepowstrzymane_natarcie_rogue_content"
+                    app:title_text_color="#000000"
+                    app:content_text_color="#4d4d4d"
+                    app:panel_padding="1dp"
+                    app:title_text="@string/niepowstrzymane_natarcie_rogue_title"
+            />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

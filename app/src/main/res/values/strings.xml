@@ -1,0 +1,1329 @@
+<resources>
+    <string name="app_name">Umiejętnosci</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="adept_pancerza_title"> 1. Adept Pancerza </string>
+    <string name="adept_pancerza_content">
+       \t \t \t Typ: Umiejętność pasywna \n \n
+
+        Zmniejsza ilość Siły potrzebnej do noszenia
+        pancerza o 2 punktypunkty (to znaczy, że postać nie
+        traci punktów Prędkości, kiedy ciężar pancerza wykroczy poza jej siłę
+        (w tym przypadku o maksymalnie 2 punkty)), jednak kiedy ciężar ekwipunku
+        wykracza poza poziom Siły postaci, wszystkie akcje
+        wymagające Kondycji kosztują o 1 pkt. więcej. </string>
+
+    <string name="bieglosc_pancerza_title"> \t 1.1. Biegłość pancerza </string>
+    <string name="bieglosc_pancerza_content">
+        \t Umiejętność podstawowa: Adept Pancerza \n
+        \t Typ: Umiejętność pasywna \n \n
+     	Zmniejsza ilość siły potrzebnej do noszenia
+        pancerza o 4 punkty. Umiejętność ta zwiększa ilość PK,
+        których wymagają akcje postaci tak samo, jak Adept
+        Pancerza, przy czym jeśli ciężar ekwipunku postaci
+        przekroczy jej siłę o 3 lub więcej punktów, to koszt
+        wszystkich akcji zostaje zwiększony o 2 PK.
+    </string>
+
+    <string name="maestria_pancerza_title"> \t 1.2. Maestria pancerza </string>
+    <string name="maestria_pancerza_content">
+        \t Umiejętność podstawowa: Biegłość pancerza \n
+        \t Typ: Umiejętność pasywna \n \n
+
+        Zmniejsza ilość siły potrzebnej do noszenia pancerza o 6 punktów.
+        Umiejętność ta zwiększa ilość PK, których wymagają akcje postaci
+        o 1 PK jeśli ciężar ekwipunku postaci przekroczy jej siłę o 2 lub
+        więcej punktów, oraz o 2 PK, jeśli ciężar ekwipunku postaci przekroczy
+        jej siłę o 4 lub więcej punktów.
+    </string>
+
+    <string name="krzepa_title"> \t  1.3. Krzepa </string>
+    <string name="krzepa_content">
+       \t Umiejętność podstawowa: Adept pancerza \n
+       \t Typ: Umiejętność pasywna \n \n
+
+        Korzystanie z tej umiejętności całkowicie
+        znosi negatywne efekty korzystania z umiejętności
+        Adept-, Biegłość-, oraz Maestria Pancerza.
+    </string>
+
+    <string name="potezny_cios_title">  2. Potężny cios </string>
+    <string name="potezny_cios_content">
+        \t Typ: Umiejętność aktywna, wzmocnienie ataku wręcz \n
+        \t Koszt: 2/4/6 PK \n \n
+
+        Pozwala użytkownikowi momentalnie zwiększyć
+        poziom Mocy ciosu o 1, 2, lub 3, za każdy z
+        nich płacąc 2 PK. Użycie tej umiejętności nie
+        wymaga czasu, zatem postać może zaatakować lub
+        użyć innej umiejętności jeszcze w tej samej
+        turze, w której aktywowała „Potężny Cios”.
+
+    </string>
+
+    <string name="destrukcja_pancerza_title">  \t 2.1. Destrukcja pancerza </string>
+    <string name="destrukcja_pancerza_content">
+        \t Typ:  Umiejętność aktywna, technika ofensywna \n
+        \t Koszt: 1 PK \n \n
+
+        Pozwala postaci na normalnych zasadach wyprowadzić cios,
+        który zadaje obrażenia pancerzowi. Jeśli cios miałby
+        zadać obrażenia pancerzowi niezależnie od działania tej
+        umiejętności, wówczas jej użycie powoduje podwojenie tych
+        obrażeń. Jakiekolwiek efekty bezpośrednio wpływające na
+        ilość obrażeń zadawanych przez postać, w identyczny sposób
+        wpływają także na wartość dziurawienia pancerza.
+
+
+    </string>
+
+    <string name="wstrzasajace_uderzenia_title">  \t 2.2. Wstrząsające uderzenia </string>
+    <string name="wstrzasajace_uderzenia_content">
+        \t Umiejętność podstawowa: Potężny cios \n
+        \t Typ: Umiejętność pasywna \n \n
+
+        Każdy z ciosów zadanych przez posiadacza tej umiejętności
+        zadaje 1 punkt obrażeń celowi, jeżeli zostanie zablokowany
+        przy użyciu tarczy lub broni. Jeżeli natomiast dosięgnie
+        celu, wówczas zadaje on 1 dodatkowy punkt obrażeń (dodawany
+        jest on na końcu, już po uwzględnieniu pancerza celu oraz
+        trafionej części ciała).
+
+    </string>
+
+    <string name="ostatni_szept_title"> \t 2.3. Ostatni szept </string>
+    <string name="ostatni_szept_content">
+        \t Umiejętność podstawowa: Potężny cios \n
+        \t Typ: Umiejętność pasywna \n \n
+
+        Ciosy skierowane przeciwko celom leżącym na ziemi
+        (z jakiegokolwiek powodu) zawsze liczą
+        się jako ciosy krytyczne.
+
+    </string>
+
+    <string name="cios_tarcza_title">  3. Cios tarczą </string>
+    <string name="cios_tarcza_content">
+        \t Typ: Umiejętność aktywna, atak tarczą \n
+        \t Celność: +5 (tarcza nie posiada bazowego bonusu do celności) \n
+        \t Koszt: 1 PK \n \n
+
+        Pozwala użytkownikowi uderzyć wroga tarczą,
+        zadając mu obrażenia równe bonusowi do bloku
+        swojej tarczy. Jeśli po uwzględnieniu obrony
+        i pancerza cel odniesie obrażenia od tego ataku,
+        zostaje on wytrącony z równowagi i traci najbliższą
+        turę. Do tego czasu nie może wykonywać żadnych czynności.
+        Cios krytyczny sprawia, że cel zostaje przewrócony.
+
+    </string>
+
+    <string name="odbicie_title"> \t 3.1. Odbicie </string>
+    <string name="odbicie_content">
+        \t Umiejętność podstawowa: Cios tarczą \n
+        \t Typ: Umiejętność aktywna, wzmocnienie bloku tarczą, reakcja \n
+        \t Koszt: 1 PK + koszt bloku \n \n
+
+        Pozwala postaci wykonać uderzenie tarczą podczas blokowania,
+        aby wytrącić atakującego z równowagi. Kiedy kość bloku postaci
+        wskaże wartość równą, lub mniejszą, niż dwukrotność jej szansy
+        na cios krytyczny (wręcz), wówczas użycie tej umiejętności staje
+        się możliwe. Zapłacenie dodatkowego 1 PK za ten blok pozawala
+        wytrącić wroga z równowagi (pod warunkiem, że ten atakuje przy
+        użyciu broni białej). W takiej sytuacji, ruch tego przeciwnika
+        natychmiast się kończy. Jeśli ten zdążył już dobiec końca,
+        wówczas traci on cały swój następny ruch.
+
+    </string>
+
+    <string name="zmiazdzenie_title"> \t 3.2. Zmiażdżenie </string>
+    <string name="zmiazdzenie_content">
+        \t Umiejętność podstawowa: Cios tarczą \n
+        \t Typ: Umiejętność pasywna \n \n
+
+        Zadanie przeciwnikowi obrażeń krytycznym ciosem tarczą
+        od tej pory zamiast wytrącać go z równowagi, ogłusza go na jedną turę.
+
+    </string>
+
+    <string name="bieglosc_stylu_walki_title">  4. Biegłość stylu walki </string>
+    <string name="bieglosc_stylu_walki_content">
+        \t Typ: Umiejętność pasywna \n \n
+
+        Po zdobyciu tej umiejętności, postać otrzymuje
+        bonus do walki w jednym, wybranym stylu. Style
+        ten można później ulepszać, tak, jak normalną umiejętność.
+
+    </string>
+
+    <string name="bron_jednoreczna_title"> \t 4.1. Broń jednoręczna </string>
+    <string name="bron_jednoreczna_content">
+
+        I: Licząc od początku zwarcia, co drugi ruch postać może wykonać dwa ataki zamiast jednego. \n
+        II: Podczas ataku postać może przerzucić jedną ze swoich kości obrażeń, lub zmusić wroga,
+        żeby przerzucił swoją kość uniku. \n
+        III:  Postać może w trakcie walki raz na ruch użyć dowolnego małego przedmiotu
+        (np. Eliksiru) bez utraty akcji.
+
+    </string>
+
+    <string name="dwie_bronie_jednoreczne_title"> \t 4.2. Dwie bronie jednoręczne </string>
+    <string name="dwie_bronie_jednoreczne_content">
+        I: Postać może wykonać atak obiema używanymi sztukami broni naraz.
+        Taki atak jest traktowany, jakby został wykonany przy użyciu jednej broni,
+        posiadającej Siłę równą zsumowanej Sile obu wykorzystanych broni oraz „niższą”
+        spośród dwóch kości. Podczas wyprowadzania takiego ciosu rzuca się za celność
+        jeden raz, z uwzględnieniem niższego z dwóch bonusów do celności i do trafienia
+        krytycznego. Bonusy za biegłość broni uwzględniane są jedynie, kiedy taki atak
+        zostaje wykonany przy użyciu dwóch broni tego samego typu. \n
+        II: Każdy cios zadany przy użyciu dwóch broni zaczyna z drugiego poziomu mocy. \n
+        III: Koszt bloku dwoma broniami zostaje zmniejszony o 1 PK. Posiadanie tej
+        umiejętności umożliwia postaci blokowanie przy użyciu dwóch sztyletów,
+        jednak bez redukcji kosztu. zmniejszenie kosztu bloku dwoma broniami.
+
+    </string>
+
+    <string name="bron_jednoreczna_i_tarcza_title"> \t 4.3. Broń jednoręczna i tarcza </string>
+    <string name="bron_jednoreczna_i_tarcza_content">
+        I: Koszt bloku tarczą zostaje zmniejszony o 1 PK. \n
+        II: Kiedy postać odpoczywa, koszt bloku tarczą zostanę zmniejszony o dodatkowy 1 PK. \n
+        III: Kiedy postać odpoczywa, premia do bloku jej tarczy zostaje podniesiona dwukrotnie.
+        Postać nie może korzystać z dwóch stylów walki w tym samym czasie.
+
+    </string>
+
+    <string name="bron_dwureczna_title"> \t 4.4. Broń dwuręczna </string>
+    <string name="bron_dwureczna_content">
+        I: Obrona przed ciosem zadanym przez postać przy użyciu broni dwuręcznej wymaga dodatkowego 1 PK. \n
+        II: Wtajemniczony: Każdy atak bronią dwuręczną zaczyna z drugiego poziomu mocy. \n
+        III: Cios krytyczny zadany bronią dwuręczną całkowicie ignoruje blok celu
+        (jednak jego cel wciąż musi opłacić koszt)
+
+    </string>
+
+    <string name="szarza_title"> 5. Szarża </string>
+    <string name="szarza_content">
+        \t Typ: Umiejętność aktywna, technika ofensywna \n
+        \t Koszt: 2 PK \n \n
+
+        Użytkownik może doskoczyć do oddalonego przeciwnika,
+        po czym wykonać atak o poziomie mocy podniesionym o 1.
+        Szarża pozwala także przerwać walkę w zwarciu bez
+        otrzymywania ciosu od wroga. Szarża nie może zostać użyta,
+        jeżeli na polu bitwy nie pozostał żaden oddalony przeciwnik. \n \n
+
+        Poza walką ta umiejętność może zostać użyta do wyważania drzwi,
+        czy wykonywania innych czynności związanych z uderzaniem w coś i
+        szybkim przemieszczaniem się. Posiadacz tej umiejętności otrzymuje
+        bonus +3 do każdego takiego rzutu.
+
+    </string>
+
+    <string name="stan_za_mna_title"> \t 5.1. Stań za mną! </string>
+    <string name="stan_za_mna_content">
+        \t Umiejętność podstawowa: Szarża \n
+        \t Typ: Umiejętność aktywna, technika obronna \n
+        \t Koszt: 1PK + Koszt bloku \n \n
+
+        Pozwala użytkownikowi doskoczyć do oddalonego sojusznika i
+        podjąć próbę zablokowania wymierzonego w niego ciosu. Ta
+        umiejętność nie może zostać wykorzystana, kiedy ktoś lub
+        coś stoi pomiędzy postacią a jej sojusznikiem, oraz kiedy
+        cel ataku wykonał już rzut za obronę. W przypadku niepowodzenia
+        bloku, użytkownik umiejętności przyjmuje na siebie cios. \n
+
+        Umiejętność tą można wykorzystać także, jeżeli formalnie nie trwa walka.
+
+    </string>
+
+    <string name="fala_stali_title"> \t 5.2. Fala stali </string>
+    <string name="fala_stali_content">
+        \t Umiejętność podstawowa: Szarża \n
+        \t Typ: Umiejętność aktywna, technika ofensywna \n
+        \t Koszt: 1 PK \n \n
+
+        Pozwala postaci doskoczyć do oddalonego wroga i uderzyć go
+        barkiem. Obie postacie muszą wtedy wykonać sporny test swojego
+        aktualnego zdrowia, do którego dodatkowo atakujący dodaje ciężar
+        swojego pancerza. Jeśli w tym teście zwycięstwo odniesie atakujący,
+        wówczas trafiony zostaje przewrócony. W przeciwnym wypadku nic się nie dzieje.
+
+    </string>
+
+    <string name="zapal_title"> \t 5.3. Zapał </string>
+    <string name="zapal_content">
+        \t Umiejętność podstawowa: Szarża \n
+        \t Typ: Umiejętność pasywna \n \n
+
+        Na samym początku walki postać może doskoczyć do wybranego
+        przeciwnika (pod warunkiem, że nikt ani nic nie stoi pomiędzy
+        nimi) i wykonać dodatkowy ruch, po którym rozpoczyna się właściwa walka.
+        Jeśli w walce uczestniczy kilka postaci z tą umiejętnością, wówczas
+        pierwszeństwo ma ta o wyższej Prędkości.
+
+
+    </string>
+
+    <string name="magiczny_pocisk_title"> 1. Magiczny pocisk </string>
+    <string name="magiczny_pocisk_content">
+        \t Typ: Zaklęcie ofensywne, obrażenia magiczne \n
+        \t Zasięg: pole widzenia użytkownika, linia prosta \n
+        \t Szansa na powodzenie: +10 \n
+        \t Kości: K4 \n
+        \t Koszt: 1 PM \n \n
+        Pozwala użytkownikowi zgromadzić niewielką ilość energii
+        magicznej, po czym wypuścić ją w stronę przeciwnika w formie
+        rozpędzonego pocisku, który jest niemożliwy do uniknięcia i
+        może zostać powstrzymany tylko przy pomocy innego zaklęcia.
+
+    </string>
+
+
+    <string name="magiczna_strzala_title"> \t 1.1. Magiczna strzała </string>
+    <string name="magiczna_strzala_content">
+        \t Umiejętność podstawowa: Magiczny Pocisk \n
+        \t Typ: Zaklęcie ofensywne, obrażenia magiczne \n
+        \t Zasięg: Pole widzenia użytkownika, linia prosta \n
+        \t Szansa na powodzenie: +5 \n
+        \t Kości: K6+ \n
+        \t Koszt: 1-4 PM \n \n
+
+        Potężniejsza wersja „Magicznego Pocisku”. Pozwala użytkownikowi
+        dopłacić dodatkowe PM, aby podnieść poziom jego kości (+1 poziom
+        kości za każdy wydany 1 PM)
+
+    </string>
+
+    <string name="magiczny_szpon_title"> \t 1.2. Magiczny szpon </string>
+    <string name="magiczny_szpon_content">
+        \t Umiejętność podstawowa: Magiczny Pocisk \n
+        \t Typ: Zaklęcie ofensywne, obrażenia magiczne \n
+        \t Zasięg: Około 10 metrów \n
+        \t Szansa na powodzenie: +5 \n
+        \t Kości: K6 \n
+        \t Koszt: 1 PM \n \n
+
+        To zaklęcie pozwala użytkownikowi użyć mocy magicznej aby
+        wykonać atak przypominający szarpnięcie pazurami. Ten atak
+        może trafić kilku stojących blisko siebie celów. Koszt
+        magicznej obrony przed tym zaklęciem jest podwojony.
+    </string>
+
+    <string name="magiczna_wlocznia_title"> \t 1.3. Magiczna włócznia </string>
+    <string name="magiczna_wlocznia_content">
+        \t Umiejętność podstawowa: Magiczna Strzała \n
+        \t Typ: Zaklęcie ofensywne, obszarowe obrażenia magiczne \n
+        \t Zasięg: Pole widzenia użytkownika, linia prosta \n
+        \t Szansa na powodzenie: + 0 \n
+        \t Kości: K6+ \n
+        \t Koszt: 2+ PM \n \n
+
+        Silniejsza wersja „Magicznej Strzały”. Działa w identyczny sposób,
+        jednak przy trafieniu całkowicie ignoruje pancerz magiczny celu i
+        przełamuje jego zaklęcia defensywne.
+
+    </string>
+
+    <string name="bariera_title"> 2. Bariera </string>
+    <string name="bariera_content">
+        \t Typ: Czar defensywny, reakcja \n
+        \t Zasięg: użytkownik i postacie w zasięgu wyciągniętej ręki \n
+        \t Szansa na powodzenie: +5 \n
+        \t Koszt: równy zablokowanym obrażeniom \n \n
+
+        Pozwala użytkownikowi postawić przed sobą magiczna tarczę,
+        absorbującą wszystkie obrażenia od ciosów i pocisków, które
+        miałyby w niego trafić. Użytkownik czaru traci ilość punktów
+        magii równą obrażeniom otrzymanym przez tarczę, za każdym
+        razem, kiedy ta zostanie trafiona. Jeżeli koszt zablokowania
+        obrażeń przez barierę miałby przekroczyć aktualny stan magii
+        jej użytkownika, to traci on cała posiadaną magię, a sama
+        tarcza ulega zniszczeniu. Dodatkowo, tarcza blokuje postaciom
+        możliwość poruszania się przez nią.
+
+    </string>
+
+    <string name="sciana_plomieni_title"> \t 2.1. Ściana płomieni </string>
+    <string name="sciana_plomieni_content">
+        \t Czar podstawowy: Bariera \n
+        \t Typ: zaklęcie defensywne, obrażenia od ognia \n
+        \t Zasięg: do 1,5 metra od użytkownika \n
+        \t Szansa na powodzenie: +5 \n
+        \t Kości: K6 \n
+        \t Koszt: 1 PM na turę \n \n
+
+        Pozwala użytkownikowi przywołać przed sobą płomienną barierę o
+        szerokości 1,5 metra, która raz rzucona, może być utrzymywana
+        przez dowolną ilość czasu. Ściana zadaje obrażenia każdej postaci,
+        która spróbuję przez nią przejść (za każdym razem należy wtedy wykonać
+        rzut za obrażenia).  Każda postać stojąca w płomieniach podczas tury
+        użytkownika zaklęcia również otrzymuje obrażenia na takich samych
+        zasadach (jest to niezależne od woli użytkownika czaru). Działanie
+        zaklęcia może zostać przerwane w dowolnym momencie i nie jest liczone
+        jako akcja.
+
+    </string>
+
+    <string name="piekielne_wrota_title"> \t 2.2. Piekielne wrota </string>
+    <string name="piekielne_wrota_content">
+        \t Czar podstawowy: Ściana Płomieni \n
+        \t Typ: Defensywne, obrażenia od ognia \n
+        \t Zasięg: 3 metry \n
+        \t Szansa na powodzenie: + 0 \n
+        \t Kości: K8 \n
+        \t Koszt: 1+ PM co rundę \n \n
+
+        Pozwala użytkownikowi przywołać płomienną osłonę o szerokości
+        2 metrów, w której ulegają spaleniu wszystkie fizyczne pociski.
+        Ponadto zadaje ona obrażenia postaciom na takich samych zasadach,
+        jak ściana płomieni. Przy rzucaniu czaru, użytkownik może wydać
+        dowolną ilość dodatkowych PM, a za każdy z nich, poziom kości
+        rośnie o 1. O tyle samo PM rośnie koszt utrzymania działania zaklęcia.
+        Użytkownik czaru może w swoim ruchu przesunąć osłonę do dowolnego miejsca
+        leżącego w zasięgu działania zaklęcia, jednak trwa to całą turę. Działanie
+        czaru może zostać przerwane w dowolnym momencie.
+
+    </string>
+
+    <string name="sanktuarium_title"> \t 2.3. Sanktuarium </string>
+    <string name="sanktuarium_content">
+        \t Czar podstawowy: Bariera \n
+        \t Typ: Zaklęcie defensywne \n
+        \t Zasięg: Użytkownik oraz postacie stojące bezpośrednio przy nim \n
+        \t Szansa na powodzenie: +5 \n
+        \t Koszt: zmniejszony o 50% \n \n
+
+        Ten czar zastępuje „Barierę” na liście czarów maga.
+        Od tej pory bariera może przyjąć kształt otaczającej
+        postaci bańki. Ponadto, koszt magii, potrzebnej do
+        zablokowania każdego z ciosów spada o połowę.
+
+    </string>
+
+    <string name="twierdza_title"> \t 2.4. Twierdza </string>
+    <string name="twierdza_content">
+        \t Zaklęcie podstawowe: Bariera lub Sanktuarium \n
+        \t Typ: Umiejętność pasywna \n \n
+
+        Od momentu uzyskania tej umiejętności, postać może postawić
+        objąć działaniem „Bariery” i „Sanktuarium” postacie oraz obiekty
+        oddalone o maksymalnie 10 metrów.
+
+    </string>
+
+    <string name="fala_goraca_title"> 3. Fala gorąca </string>
+    <string name="fala_goraca_content">
+        \t Typ: Ofensywne, obszarowe, obrażenia od ognia \n
+        \t Zasięg: stożek o maksymalnej długości i szerokości  1,5 m \n
+        \t Szansa na powodzenie: +10 \n
+        \t Kości: K6 \n
+        \t Koszt: 2+ PM \n \n
+
+        Pozwala postaci uwolnić falę rozgrzanego powietrza,
+        zadającą trafionym postaciom obrażenia od ognia.
+        Obrażenia te mogą zostać uniknięte, lub zablokowane
+        tarczą, nie istnieje natomiast możliwość zablokowania
+        ich bronią. Każde trafienie traktowane jest jako trafienie
+        w tułów – nie wykonuje się rzutu kością k4 określającego
+        trafioną część ciała. Obiekty znajdujące się przy samym
+        wierzchołku stożka (zaczynającego się przy dłoni rzucającego
+        zaklęcie) otrzymują podwójne obrażenia. Jeśli przy wierzchołku
+        stożka znajdzie się łatwopalny obiekt, wówczas zostaje on
+        podpalony, a obiekty wykonane z metalu zostają rozgrzane do
+        czerwoności, jednak wracają do swojej normalnej temperatury
+        niedługo po zakończeniu działanie zaklęcia. Użytkownik może
+        wydać dodatkowe PM, żeby zwiększyć zasięg i szerokość stożka –
+        o 1m za każdy dodatkowy 1 PM. Stożek o zwiększonym zasięgu ma
+        modyfikator szansy na powodzenie -3 za każdy dodatkowy metr zasięgu.
+
+    </string>
+
+    <string name="fala_plomieni_title"> \t 3.1. Fala płomieni </string>
+    <string name="fala_plomieni_content">
+        \t Czar podstawowy: Fala Gorąca \n
+        \t Typ: Zaklęcie ofensywne, obszarowe, obrażenia od ognia \n
+        \t Zasięg: stożek o długości i szerokości 1,5 m \n
+        \t Szansa na powodzenie: + 5 \n
+        \t Kości: K8+ \n
+        \t Koszt: 3+ PM \n \n
+
+        Czar działa analogicznie do swojej „słabszej” wersji,
+        jednak zamiast ciepła, postać może wyrzucić przed siebie
+        falę płomieni. Obiekty przy wierzchołku stożka otrzymują
+        podwójne obrażenia. Zasięg może zostać zwiększony tak, jak
+        zasięg fali gorąca. Oprócz tego, rzucający zaklęcie może
+        zwiększyć poziom kości ataku, płacąc za każdy dodatkowy
+        poziom 1 PM. Zaklęcie o zwiększonym zasięgu lub obrażeniach
+        ma modyfikator szansy na powodzenie – 3 za każdy metr
+        dodatkowego zasięgu oraz każdy dodatkowy poziom kości obrażeń.
+
+    </string>
+
+    <string name="smocza_wlocznia_title"> \t 3.2. Smocza włócznia </string>
+    <string name="smocza_wlocznia_content">
+        \t Czar podstawowy: Fala Płomieni \n
+        \t Typ: Ofensywne, obrażenia od ognia \n
+        \t Zasięg: Linia prosta, 15 m \n
+        \t Szansa na powodzenie: +/- 0 \n
+        \t Kości: K6+ \n
+        \t Koszt: 3+ PM \n \n
+
+        Zamiast stożka, pozwala uwolnić płomienie w formie wąskiego
+        strumienia o szansie na cios krytyczny zwiększonej dwukrotnie,
+        trafiającego tylko jeden cel. Cel ten jest traktowany, jakby
+        znajdował się przy wierzchołku stożka Fali Płomieni. Włócznia
+        płomieni trafia w jedną z części ciała celu. Oprócz tego, stosują
+        się do niej identyczne zasady, co do Fali Płomieni.
+
+    </string>
+
+    <string name="przyzwanie_plomieni_title"> \t 3.3. Przyzwanie płomieni </string>
+    <string name="przyzwanie_plomieni_content">
+        \t Czar podstawowy: Fala gorąca \n
+        \t Typ: Zaklęcie ofensywne, obrażenia od ognia \n
+        \t Zasięg: Linia prosta, pole widzenia użytkownika \n
+        \t Szansa na powodzenie: +5 \n
+        \t Kości: K6 \n
+        \t Koszt: 1 MP \n \n
+
+        Pozwala użytkownikowi wytworzyć zdolny oświetlić niewielki
+        obszar płomień, którym następnie będzie mógł w dowolny
+        sposób kierować, lub posłać go w wybranym kierunku jak
+        pocisk, umożliwiając podpalenie odległych przedmiotów.
+        Płomień może zostać wykorzystany do walki – posłany w
+        stronę wroga zadaje mu obrażenia od ognia. Nadlatujący
+        płomień może zostać uniknięty, lub zablokowany tarczą.
+
+    </string>
+
+    <string name="smoczy_gniew_title"> \t 3.4. Smoczy gniew </string>
+    <string name="smoczy_gniew_content">
+        \t Czar podstawowy: Przyzwanie płomieni \n
+        \t Typ: Ofensywny, obrażenia od ognia \n
+        \t Zasięg: Linia prosta, pole widzenia użytkownika \n
+        \t Szansa na powodzenie: + 0 \n
+        \t Kości: K6+ \n
+        \t Koszt: 2+ PM \n \n
+
+        Pozwala użytkownikowi cisnąć w pojedynczego przeciwnika
+        kulą płomieni. Użytkownik czaru może podnieść obrażenia
+        zadawane przez to zaklęcie, oraz jego szansę na cios
+        krytyczny, dopłacając do jego kosztu odpowiednią ilość
+        PM: 1 PM za każdy poziom kości, oraz 1 PM za +2 punkty
+        do szansy na cios krytyczny. To zaklęcie może podpalić
+        trafionego wroga. Szansa na podpalenie to dwukrotność
+        szansy na cios krytyczny tego zaklęcia. Płonący cel
+        będzie otrzymywać 1 punkt obrażeń na początku każdego
+        swojego ruchu, jednak nie więcej, niż trzy razy w ciągu rundy.
+
+    </string>
+
+    <string name="podmuch_title"> 4. Podmuch </string>
+    <string name="podmuch_content">
+        \t Typ: Zaklęcie ofensywne, obszarowe, bez obrażeń \n
+        \t Zasięg: Stożek o długości i szerokości 1,5 m \n
+        \t Szansa na powodzenie: +15 \n
+        \t Kości: Zależne od ilości wydanych PM \n
+        \t Koszt: 1-5 PM \n \n
+
+        Zaklęcie ofensywne o szansie na powodzenie +10. Użytkownik może zapłacić
+        za nie od 1 do 5 PM. Pozwala odepchnąć wybranego przeciwnika na odległość
+        kilku metrów.  Ilość pkt. magii wydanych na rzucenie zaklęcia decyduje o
+        poziomie jego kości (1 PM – k4, 2 PM – k6, 3 PM – k8, 4 PM – k10, 5 PM – k12).
+        Rzut wykonywany podczas używania tego zaklęcia rozpatruje się dokładnie w
+        taki sam sposób, w jaki rozpatrywane są rzuty za obrażenia, jednak wynik nie
+        reprezentuje obrażeń. Zamiast tego należy go porównać z aktualnym zdrowiem celu
+        (lub kilku celów, jeśli stoją one wystarczająco blisko siebie). Nie uwzględnia
+        się przy tym pancerza celu. \n
+        Jeśli uzyskana wartość stanowi: \n
+        • Poniżej 50% PZ celu: zaklęcie nie odnosi efektu. \n
+        • 50% (lub więcej) PZ celu: cel zostaje odepchnięty. \n
+        • 100% (lub więcej) PZ celu: cel zostaje odepchnięty i powalony. \n
+        Jeśli zaklęcie zostaje rzucone na postać znajdującą się w powietrzu,
+        wówczas wszystkie progi zostają obniżone o połowę (25% na odrzucenie i 50%
+        na powalenie). Zaklęcie może zostać wykorzystane jako reakcja przeciwko atakowi
+        wręcz, a odrzucenie przeciwnika pozwala uniknąć otrzymania ciosu. Trafienie
+        krytyczne sprawia, że podczas rzutu trafiona postać bierze pod uwagę tylko
+        połowę swojego aktualnego zdrowia. \n
+
+        Postać, która opuści zwarcie na skutek odrzucenia, nie otrzymuje z tego powodu ciosu.
+
+    </string>
+
+    <string name="telekineza_title"> \t 4.1. Telekineza </string>
+    <string name="telekineza_content">
+        \t Czar podstawowy: Podmuch \n
+        \t Typ: Czar ofensywny/wspierający \n
+        \t Zasięg: Pole widzenia użytkownika \n
+        \t Szansa na powodzenie: +10 lub mniej \n
+        \t Koszt: 1+ PM \n \n
+
+        Pozwala użytkownikowi przenosić na odległość przedmioty. W ten
+        sposób można na przykład odzyskać wystrzelone pociski, albo pchnąć
+        dźwignię. Ruchy kontrolowanych obiektów nie mogą być skomplikowane.
+        Koszt i szansa na powodzenie są od rozmiaru i ciężaru przenoszonego
+        obiektu, oraz odległości, na jaką zostaje on przeniesiony. \n
+        Przy użyciu tego zaklęcia, użytkownik może także przenosić samego
+        siebie oraz inne postacie, zarówno sojusznicze, jak i wrogie. W
+        takiej sytuacji modyfikator szansy na powodzenie zawsze wynosi +5,
+        a koszt to 1 PM za każde dwa metry pokonane przez lewitującą postać. \n
+        Postacie i obiekty można także przenosić podczas walki. Tego zaklęcia
+        nie da się uniknąć i chroni przed nim jedynie Bariera.
+
+    </string>
+
+    <string name="wladza_nad_materia_title"> \t 4.2. Władza nad materią </string>
+    <string name="wladza_nad_materia_content">
+        \t Czar podstawowy: Telekineza \n
+        \t Typ: Czar wspierający \n
+        \t Zasięg: Pole widzenia użytkownika \n
+        \t Szansa na powodzenie: +5 lub mniej \n
+        \t Koszt: 1+ PM \n \n
+        To zaklęcie stanowi lepszą, bardziej precyzyjną wersję czaru „Telekineza”.
+        Pozwala użytkownikowi na odległość wykonywać nieco bardziej skomplikowane
+        czynności niż „Telekineza”, takie jak obracanie klucza w zamku, przerzucanie
+        stron w książce, czy wiązanie węzłów. W ten sposób nie można wpływać na duże,
+        ani ciężkie przedmioty (najwyżej na ich elementy). W zależności od stopnia
+        skomplikowania wykonywanej czynności zmienia się szansa na powodzenie zaklęcia,
+        a w zależności od czasu jej trwania – koszt zaklęcia. \n
+        Tego zaklęcia można użyć także, aby korzystać z broni białej bez
+        dotykania jej. Utrzymywanie broni w powietrzu przez jedną rundę
+        kosztuje 1 PM. Tyle samo kosztuje wykonanie bloku. Wyprowadzenie
+        ataku jest darmowe. Szansa na blok oraz celność są równe szansie
+        na rzucenie zaklęcia postaci,
+
+    </string>
+
+    <string name="teleportacja_title"> \t 4.3. Teleportacja </string>
+    <string name="teleportacja_content">
+        \t Czar podstawowy: Władza nad Materią  \n
+        \t Typ: Czar wspierający \n
+        \t Zasięg: Użytkownik oraz postacie i obiekty znajdujące się zasięgu wyciągniętej ręki. \n
+        \t Koszt: 1+ PM \n \n
+
+        Pozwala użytkownikowi niemal natychmiastowo przenieść wybrany przedmiot
+        lub istotę na dowolną odległość w wybranym kierunku (użytkownik nie może
+        wybrać miejsca docelowego, a jedynie kierunek, w którym nastąpi przemieszczenie)
+        Koszt zaklęcia zmieniaja się wraz z odległością, na jaką zostaje przeniesiony cel,
+        oraz wielkością celu. \n
+        Zależność kosztu od odległości: 1 PM + 1 PM za każde 100 metrów odległości, na
+        jaką zostanie przeniesiony cel. \n
+        Końcowy koszt zaklęcia jest proporcjonalny do wielkości przenoszonego obiektu.
+        Koszt przeniesienia obiektów wielkością i masą zbliżonych do człowieka zostaje
+        bez zmian. W przypadku obiektów większych lub mniejszych, zostaje on odpowiednio
+        zwiększony, lub zmniejszony. Przykładowo, koszt przeniesienia obiektu trzy razy
+        większego od człowieka będzie wynosił trzykrotność podstawowego kosztu (zależnego
+        od odległości). \n
+        Rzucanie tego zaklęcia trwa kilka minut, przez co nie może ono zostać rzucone w
+        trakcie walki. Dzięki temu jest ono jednak traktowane jak w pełni naładowane i
+        mające szansę na powodzenie równą 20 (to oznacza, że kończy się niepowodzeniem tylko,
+        jeśli rzucający wyrzuci 20). \n
+        Niepowodzenie tego zaklęcia może skutkować przeniesieniem postaci lub obiektu w
+        losowe miejsce w zasięgu zależnym od wydanych PM. \n
+        Kilka postaci trzymających się za ręce liczone jest jak jeden obiekt o odpowiednio
+        większym rozmiarze. \n
+
+    </string>
+
+    <string name="uzdrawiajacy_dotyk_title"> 5. Uzdrawiający dotyk </string>
+    <string name="uzdrawiajacy_dotyk_content">
+        \t Typ: Czar wspierający \n
+        \t Zasięg: Użytkownik, oraz postacie, których dotknie \n
+        \t Szansa na powodzenie: +3 \n
+        \t Kości: K8 \n
+        \t Koszt: 2 PM \n \n
+
+        To zaklęcie pozwala użytkownikowi przywrócić celowi pewną ilość PZ.
+        Ilość uleczonych PZ jest ustalana dokładnie w taki sam sposób, jak
+        obrażenia w przypadku czarów ofensywnych, z tą różnicą, że kości
+        przywracają o 1 PZ mniej, niż wynosi ich poziom (przykładowo kość
+        K8 przywraca 2 PZ). „Cios” krytyczny działa także w przypadku uzdrowienia:
+        krytyczne zaklęcie przywraca dwukrotnie więcej PZ.
+
+    </string>
+
+    <string name="strumien_zycia_title"> \t 5.1. Strumień życia </string>
+    <string name="strumien_zycia_content">
+        \t Czar podstawowy: Uzdrawiający dotyk \n
+        \t Typ: Czar wspierający \n
+        \t Zasięg: Około 10 metrów \n
+        \t Szansa na powodzenie: + 0 \n
+        \t Kości: K8 \n
+        \t Koszt: 3 PM \n \n
+
+        To zaklęcie pozwala użytkownikowi uleczyć pojedynczy cel
+        znajdujący się w zasięgu. Poza tym, działa dokładnie tak,
+        jak „Uzdrawiający Dotyk”
+        Nabycie tej umiejętności wzmacnia także „Uzdrawiający dotyk”
+        – od tej pory użytkownik może dopłacić maksymalnie 2 PM przy
+        jego rzucaniu, a każdy wydany w ten sposób PM podnosi poziom
+        kości zaklęcia o 1.
+
+    </string>
+
+    <string name="powstan_title"> \t 5.2. Powstań! </string>
+    <string name="powstan_content">
+        \t Czar podstawowy: Uzdrawiający dotyk \n
+        \t Typ: Umiejętność pasywna \n \n
+
+        Ta umiejętność stanowi wzmocnienie „Uzdrawiającego dotyku”.
+        Od tej pory użytkownik zaklęcia może uleczyć postacie, których
+        PZ spadły do 0 lub poniżej, jednak takie uleczenie kosztuje
+        dodatkowe 2 PM, a jego szansa na powodzenie spada o 3. Postać,
+        której PZ wzrośnie powyżej 0 na skutek działania tej umiejętności,
+        może wrócić do walki.
+
+    </string>
+
+    <string name="oczyszczenie_title"> \t 5.3. Oczyszczenie </string>
+    <string name="oczyszczenie_content">
+        \t Czar podstawowy: Uzdrawiający dotyk \n
+        \t Typ: Zaklęcie wspierające \n
+        \t Zasięg: Użytkownik oraz postacie, których dotknie \n
+        \t Szansa na powodzenie: + 0 \n
+        \t Kości: K12 \n
+        \t Koszt: 1 PM \n \n
+
+        Ten czar pozwala użytkownikowi osłabić lub usunąć dowolne negatywne efekty
+        dotyczący postaci stanowiącej cel zaklęcia (ten negatywny efekt może
+        stanowić zarówno efekt działania trucizny, innego zaklęcia, wrogiej
+        techniki walki wręcz lub dystansowej, czy czegokolwiek innego). \n
+        O tym, jak bardzo można osłabić wybrane efekty, mówią kości. Rozpatrywane
+        są one w taki sposób, jak kości obrażeń, z tym, że każda z kości K12,
+        która „trafi” powoduje obniżenie siły efektu o 1 punkt (przykładowo,
+        postać która traci 3 PZ co turę na skutek działania trucizny, po
+        osłabieniu efektu o 2 punkty, będzie tracić tylko 1 PZ co turę).
+        Czar krytyczny pozwala osłabić negatywne efekty podwójnie. \n
+        Posiadanie zdolności „Strumień Życia” pozwala przyjąć za cel „Oczyszczenia”
+        cel oddalony o maksymalnie 10 metrów, jednak w takiej sytuacji „Oczyszczenie”
+        kosztuje dodatkowy 1PM.
+
+    </string>
+
+    <string name="linia_zycia_title"> \t 5.4. Linia życia </string>
+    <string name="linia_zycia_content">
+        \t Czar podstawowy: Oczyszczenie \n
+        \t Typ: Czar wspierający \n
+        \t Zasięg: Użytkownik oraz postacie, których dotknie \n
+        \t Szansa na powodzenie: + 0 \n
+        \t Koszt: 2+ PM \n \n
+
+        To zaklęcie pozwala użytkownikowi podtrzymać funkcje życiowe
+        swoje lub innej postaci w niekorzystnych warunkach (na przykład
+        po otrzymaniu śmiertelnej rany, albo po odcięciu dostępu powietrza).
+        Podczas walki to zaklęcie pozwala celowi przeżyć dodatkową rundę,
+        natomiast poza walką – około dwie minuty. Zaklęcie może być rzucone
+        nr ten sam cel kilka razy pod rząd, odpowiednio przedłużając jego życie. \n
+        Podczas rzucania tego czaru użytkownik może dopłacić do niego dowolną ilość
+        PM, aby zwiększyć jego szansę na powodzenie: za każdy 1 PM, szansa na
+        powodzenie tego czaru wzrasta o 3.
+
+    </string>
+
+    <string name="wskrzeszenie_title"> \t 5.5. Linia życia </string>
+    <string name="wskrzeszenie_content">
+        \t Umiejętność podstawowa: Uzdrawiający dotyk \n
+        \t Typ: Zaklęcie wspierające \n
+        \t Zasięg: Martwe cele dotknięte przez użytkownika \n
+        \t Zasięg kontroli: 15 m \n
+        \t Szansa na powodzenie: +5 lub mniej \n
+        \t Kości: - \n
+        \t Koszt: 1+ PM / 1 PM za 10 minut działania \n \n
+
+        To zaklęcie pozwala użytkownikowi tymczasowo wskrzesić zwłoki martwej istoty.
+        Wskrzeszone zwłoki posiadają szczątkową świadomość i mogą wykonywać proste
+        polecenia oraz walczyć w imieniu maga, który je wskrzesił. Są mu przy tym
+        całkowicie lojalne. Wskrzeszone istoty mogą otrzymywać obrażenia fizyczne,
+        jednak są odporne na obrażenia magiczne. Przyjęcie przez taką istotę obrażeń
+        równych lub większych od jej początkowego zdrowia sprawia, że jej ciało ulega
+        zniszczeniu: użytkownik zaklęcia traci nad nią kontrolę i nie może być ona ponownie
+        wskrzeszona. Wskrzeszona postać nie może znaleźć się dalej niż 15 metrów od
+        rzucającego zaklęcie. Jeśli się to wydarzy, wówczas zaklęcie przestaje działać. \n
+        Koszt i szansa na powodzenie są zależne od wielkości wskrzeszanej istoty: wskrzeszenie
+        istoty rozmiarów dorosłego człowieka kosztuje 2 PM, a zaklęcie ma modyfikator szansy
+        na powodzenie równy 0. Koszt rzucenia zaklęcia oraz jego modyfikator szansy na powodzenie
+        są proporcjonalne do wielkości wskrzeszanie istoty, przy czym minimalny koszt rzucenia
+        tego zaklęcia 1 PM, a maksymalny modyfikator szansy na powodzenie to +5 (w przypadku
+        dużych istot może on osiągnąć wartość ujemną). \n
+        Utrzymywanie kontroli nad zwłokami przez dłuższy czas zużywa magię użytkownika zaklęcia:
+        co 10 minut działania czaru użytkownik traci 1 PM.
+
+    </string>
+
+    <string name="sokole_oko_title"> 1. Sokole oko </string>
+    <string name="sokole_oko_content">
+        \t Typ: Umiejętność pasywna \n \n
+
+        Nabycie tej umiejętności podnosi Celność postaci o 5
+        punktów, jeśli korzysta ona z broni dystansowej i nie
+        jest ranna (jej poziom PZ jest równy maksymalnej wartości)
+
+    </string>
+
+    <string name="pewna_reka_title"> \t 1.1. Pewna ręka </string>
+    <string name="pewna_reka_content">
+        \t Umiejętność podstawowa: Sokole oko \n
+        \t Typ: Umiejętność pasywna \n
+
+        Ta umiejętność działa tylko, kiedy korzystania z
+        broni dystansowej. Jeśli celność postaci z jakiegokolwiek
+        powodu (także w wyniku działania umiejętności) miałaby
+        przekroczyć 19. Szansa na trafienie krytyczne zostaje
+        zwiększona o tyle punktów, o ile Celność postaci przekracza
+        19 (przykładowo, jest to +7 do trafienia krytycznego, kiedy
+        Celność postaci wynosi 26).
+
+    </string>
+
+    <string name="prosto_w_cel_title"> \t 1.2. Prosto w cel! </string>
+    <string name="prosto_w_cel_content">
+        \t Umiejętność podstawowa: Sokole oko \n
+        \t Typ: Umiejętność pasywna \n
+
+        Redukuje o 5 negatywny modyfikator, który postać otrzymuje
+        podczas celowania w konkretne części ciała przeciwników.
+        Ponadto redukuje o połowę szansę na trafienie w sojusznika
+        (sąsiadującego z pierwotnym celem) po chybionym strzale
+        (to znaczy do 25%).
+
+    </string>
+
+    <string name="bieglosc_broni_title"> 2. Biegłość broni </string>
+    <string name="bieglosc_broni_content">
+        \t Typ: Umiejętność pasywna \n \n
+
+        Po zdobyciu tej umiejętności, postać otrzymuje bonus do
+        walki przy pomocy jednej, wybranej broni. Biegłość walki
+        wybraną bronią można później ulepszać, tak, jak normalną
+        umiejętność.
+
+    </string>
+
+    <string name="bieglosc_broni_luk_title"> \t 2.1. Łuk </string>
+    <string name="bieglosc_broni_luk_content">
+        I: Przy każdym strzale, postać może nałożyć na cięciwę dwie strzały.
+        Jeśli zdecyduje się to zrobić, wówczas strzela z modyfikatorem -5 do
+        celności. Każda z takich strzał może trafić w inny cel (pod warunkiem,
+        że znajdują się one blisko siebie) i za każdą z nich wykonuje się osobny
+        rzut za Celność i obronę. Rzut za obrażenia jest wspólny dla obu strzał. \n \n
+        II: Koszt uniku wszystkich postaci, które starają się uniknąć strzały
+        wystrzelonej przez użytkownika tej umiejętności zostaje podniesiony o 1 PK.
+        Ponadto, użytkownik tej umiejętności może raz na turę zmusić broniącą się
+        postać do przerzucenia swojej kości obrony. \n \n
+        III: Pozwala strzelcowi nałożyć na cięciwę maksymalnie trzy strzały.
+        Umiejętność ta działa analogicznie do tej z dwoma strzałami, jednak
+        modyfikator do celności wynosi nie -5, a -10. \n \n
+
+    </string>
+
+    <string name="bieglosc_broni_kusza_title"> \t 2.2. Kusza </string>
+    <string name="bieglosc_broni_kusza_content">
+        I: Użytkownik tej umiej3tności otrzymuje modyfikator +10 do
+        celności podczas korzystania z kuszy. \n \n
+        II: Koszt uniku i bloku wszystkich postaci, które próbują
+        obronić się przed bełtami wystrzelonymi przez użytkownika
+        tej umiejętności zostaje podniesiony o 1 PK. \n \n
+        III: Każdy bełt wystrzelony przez postać ignoruje połowę
+        pancerza celu.
+
+    </string>
+
+    <string name="bieglosc_broni_sztylet_title"> \t 2.3. Sztylet </string>
+    <string name="bieglosc_broni_sztylet_content">
+        I: Wyciągnięcie i schowanie sztyletu podczas walki nie
+        wymaga czasu. \n \n
+        II: Podczas jednej tury postać może wykonać nie jeden,
+        a dwa ataki przy użyciu sztyletu. Innymi słowy,
+        prędkość ataku sztyletem zostaje zwiększona dwukrotnie. \n \n
+        III: Postać może trzymać nieograniczoną ilość
+        jednakowych sztyletów na jednym polu uzbrojenia
+        (ich ilość musi być zaznaczona). Celność podczas
+        rzucania sztyletem zostaje zwiększona o 5.
+
+    </string>
+
+    <string name="bieglosc_broni_wlocznia_title"> \t 2.4. Włócznia </string>
+    <string name="bieglosc_broni_wlocznia_content">
+        I: Każdy cios włócznią ignoruje połowę pancerza przeciwnika. \n
+        II: Koszt uniknięcia ciosu włócznią zadanego przez użytkownika
+        tej umiejętności zostaje zwiększony i 1 PK. \n
+        III: Postać może poza swoją turą, w ramach reakcji, wykonać
+        cios wymierzony w zbliżającego się przeciwnika. Jeśli cel
+        otrzyma obrażenia od tego ataku, wówczas zostaje on zmuszony
+        do zatrzymania się. \n
+
+    </string>
+
+    <string name="plaszcz_nocy_title"> 3. Płaszcz nocy </string>
+    <string name="plaszcz_nocy_content">
+        \t Typ: Zaklęcie wspierające \n
+        \t Zasięg: Użytkownik \n
+        \t Szansa na powodzenie: \n
+        \t Kości: K6 \n
+        \t Koszt: 1 PM na minutę \n \n
+
+        Pozwala czasowo wzmocnić szansę na Ukrycie użytkownika.
+        Dwukrotność Skuteczności zaklęcia (ustalanej na takiej
+        samej zasadzie, na jakiej liczy się obrażenia) stanowi
+        jaki użytkownik czaru otrzymuje do Ukrycia. Po jednorazowym
+        użyciu efekt trwa do końca walki oraz około minuty poza nią. Podczas
+        walki postać może wykonać rzut za ukrycie w tej samej turze, w której
+        rzuciła zaklęcie. Jeśli czas trwania zaklęcia skończy się, kiedy postać
+        pozostaje ukryta, wówczas musi ona ponownie wykonać rzut za ukrycie,
+        już bez bonusu pochodzącego z zaklęcia.
+
+    </string>
+
+    <string name="strzala_z_mroku_title"> \t 3.1. Strzała z mroku </string>
+    <string name="strzala_z_mroku_content">
+        \t Typ: Umiejętność pasywna \n \n
+
+        Wszystkie postacie, dla których strzelec (użytkownik tej
+        umiejętności) pozostaje niewidoczny (w tym na skutek
+        działania Ukrycia, oraz zaklęć zapewniających niewidzialność),
+        odnoszą podwójne obrażenia od ataków dystansowych tego
+        strzelca (obrażenia zostają podwojone po uwzględnieniu pancerza).
+
+
+    </string>
+
+    <string name="cien_title"> \t 3.2. Cień </string>
+    <string name="cien_content">
+        \t Umiejętność podstawowa: Płaszcz nocy \n
+        \t Typ: Umiejętność pasywna \n \n
+
+        Kiedy posiadacz tej umiejętności stoi w miejscu
+        i nie porusza się, wartość jego Ukrycia zostaje
+        podniesiona o 5. W sytuacji, kiedy pozostaje on
+        ukryty i chce zacząć się przemieszczać, musi
+        ponownie wykonać rzut za Ukrycie, tym razem
+        bez tego modyfikatora.
+
+    </string>
+
+
+    <string name="plynnosc_title"> 4. Płynność </string>
+    <string name="plynnosc_content">
+        \t Typ: Umiejętność pasywna \n \n
+
+        Tak długo, jak postać nie jest ranna (jej PZ
+        jest na maksymalnym poziomie), jej wartość
+        Uniku wzrasta o 5 punktów.
+
+    </string>
+
+    <string name="odwrot_title"> \t 4.1. Odwrót </string>
+    <string name="odwrot_content">
+        \t Umiejętność podstawowa: Płynność \n
+        \t Typ: Umiejętność aktywna, technika defensywna \n
+        \t Koszt: 2 PK  \n \n
+
+        Jeżeli postać toczy walkę w zwarciu, ta umiejętność
+        pozwala jej odskoczyć od przeciwnika i wykonać dowolny
+        atak dystansowy jeszcze w tej samej turze. Postać
+        wciąż może otrzymać cios w plecy za opuszczenie walki
+        w zwarciu, jednak ma możliwość uniknięcia go.
+
+    </string>
+
+    <string name="zmiana_pozycji_title"> \t 4.2. Zmiana pozycji </string>
+    <string name="zmiana_pozycji_content">
+        \t Umiejętność podstawowa: Płynność \n
+        \t Typ: Umiejętność aktywna, technika defensywna \n
+        \t Koszt: 2 PK  \n \n
+
+        Jeżeli postać toczy walkę w zwarciu, ta umiejętność
+        pozwala jej odskoczyć od przeciwnika i wykonać dowolny
+        atak dystansowy jeszcze w tej samej turze. Postać
+        wciąż może otrzymać cios w plecy za opuszczenie walki
+        w zwarciu, jednak ma możliwość uniknięcia go.
+
+    </string>
+
+    <string name="lekkosc_title"> \t 4.3. Lekkość </string>
+    <string name="lekkosc_content">
+        \t Umiejętność podstawowa: Płynność \n
+        \t Typ: Czar wspierający \n
+        \t Zasięg: Użytkownik \n
+        \t Szansa na powodzenie: +10 \n
+        \t Kości: K6 \n
+        \t Koszt: 2 PM na minutę \n \n
+
+        Pozwala użytkownikowi względnie zmniejszyć masę swojego ciała,
+        aby umożliwić swobodniejsze uniki i zwiększyć prędkość poruszania się. \n
+        O sile efektu decydują kości – Skuteczność zaklęcia stanowi ilość bonusowych
+        pkt. Uniku. Połowa tej wartości, to bonus do testów Prędkości, Chyżości i
+        Zwinności, który postać otrzymuje na czas trwania zaklęcia. \n
+        Podczas walki ten efekt trwa aż do jej końca, a poza walką około minuty.
+
+    </string>
+
+    <string name="znow_w_grze_title"> \t 4.4. Znów w grze </string>
+    <string name="znow_w_grze_content">
+        \t Umiejętność podstawowa: Płynność \n
+        \t Typ: Umiejętność aktywna, technika defensywna \n
+        \t Koszt: 2 PK \n \n
+
+        Pozwala postaci unikać ciosów i pocisków, kiedy leży
+        na ziemi(każdy taki unik kosztuje 2 PK). Po uniknięciu dowolnego ataku, postać może
+        wykonać wyskok, który pozwala jej wstać na nogi (nie wymaga to wydawania dodatkowych PK).
+
+    </string>
+
+    <string name="slaby_punkt_title"> 5. Słaby punkt </string>
+    <string name="slaby_punkt_content">
+        \t Typ: umiejętność pasywna \n \n
+
+        Nabycie tej umiejętności pozwala postaci nauczyć się
+        szeregu słabych punktów znajdujących się na ciałach
+        większości istot, w które podczas walki może celować,
+        aby odnieść pożądany efekt. Wycelowanie w punkt wymaga
+        wycelowania w konkretną część ciała, co wiąże się z
+        otrzymaniem negatywnego modyfikatora do celności. Oprócz
+        tego, po rozstrzygnięciu, czy cel został trafiony, należy
+        sprawdzić, czy pocisk trafił w słaby punkt. W tym celu
+        należy wykonać jeszcze jeden rzut za celność, jednak
+        uwzględnia się przy nim tylko połowę celności postaci
+        (rzecz jasna z uwzględnieniem wszystkich modyfikatorów,
+        które wpływają na nią w tym ruchu). Jego powodzenie
+        oznacza trafienie w słaby punkt, natomiast niepowodzenie
+        – trafienie w cel, jednak nie w słaby punkt. Pierwszego
+        ze słabych punktów postać uczy się przy zdobyciu tej
+        umiejętności, pozostałe może nabyć na takich zasadach,
+        na jakich normalnie nabywa się umiejętności pokrewne.
+
+    </string>
+
+    <string name="spowolnienie_title"> \t 5.1. Spowolnienie </string>
+    <string name="spowolnienie_content">
+        \t Część ciała: Nogi \n \n
+
+        Do końca walki zmniejsza Prędkość celu o 1 pkt.
+
+    </string>
+
+    <string name="krwawienie_title"> \t 5.2. Krwawienie </string>
+    <string name="krwawienie_content">
+        \t Część ciała: Tułów \n \n
+
+        Cel zaczyna tracić po 1 PZ co turę, maksymalnie
+        trzy razem w ciągu rundy. Krwawienia zostaje
+        zmniejszone o 1 PZ turę za każdym razem, kiedy
+        krwawiąca postać zostanie uleczona.
+
+    </string>
+
+    <string name="oslabienie_title"> \t 5.3. Osłabienie </string>
+    <string name="oslabienie_content">
+        \t Część ciała: Ręce \n \n
+
+        Do końca walki zmniejsza Moc celu o 2 punkty.
+
+    </string>
+
+    <string name="rozbrojenie_title"> \t 5.4. Rozbrojenie </string>
+    <string name="rozbrojenie_content">
+        \t Część ciała: Ręce \n \n
+
+        Cel upuszcza broń lub tarczę trzymaną w trafionej ręce w chwili
+        (strzelec może wycelować w konkretną rękę).
+
+    </string>
+
+    <string name="egzekucja_title"> \t 5.4. Rozbrojenie </string>
+    <string name="egzekucja_content">
+        \t Część ciała: Ręce \n \n
+
+        Cel upuszcza broń lub tarczę trzymaną w trafionej ręce w chwili
+        (strzelec może wycelować w konkretną rękę). Ponadto trafiona ręka
+        nie może być wykorzystana do rzucania czarów aż do chwili otrzymania
+        jakiegokolwiek uleczenia.
+
+    </string>
+
+    <string name="precyzyjne_pchniecie_title"> 1. Precyzyjne pchnięcie </string>
+    <string name="precyzyjne_pchniecie_content">
+        \t Typ: Umiejętność aktywna, technika ofensywna \n
+        \t Koszt: 1 PK \n \n
+
+        Pozwala użytkownikowi na normalnych zasadach wyprowadzić
+        atak, który przy trafieniu całkowicie ignoruje pancerz
+        celu. Atak ten może w normalny sposób zostać „przygotowany”.
+        Tej umiejętności można użyć jedynie w sytuacji, kiedy postać
+        korzysta z jednoręcznej broni, którą można wykonywać pchnięcia.
+
+    </string>
+
+    <string name="cios_w_plecy_title"> \t 1.1. Cios w plecy </string>
+    <string name="cios_w_plecy_content">
+        \t Umiejętność podstawowa: Precyzyjne pchnięcie \n
+        \t Typ: Umiejętność aktywna, technika ofensywna \n
+        \t Koszt: 1 PK \n \n
+
+        Jeśli postać znajduje się za plecami przeciwnika,
+        może wykonać cios, który zawsze trafia w tułów celu
+        i zadaje podwojone obrażenia, ignorując przy tym
+        połowę pancerza. Warunkiem jest używanie przez
+        postać jednoręcznej broni zdolnej wykonywać pchnięcia.
+        Jeśli ta umiejętność zostanie użyta przy wykorzystaniu
+        sztyletu, wówczas ignorowany jest cały pancerz.
+
+    </string>
+
+    <string name="z_mroku_title"> \t 1.2. Z mroku </string>
+    <string name="z_mroku_content">
+    \t Umiejętność podstawowa: Precyzyjne pchnięcie \n
+    \t Typ: Umiejętność aktywna, technika ofensywna \n
+    \t Koszt: 1 PK \n \n
+
+    Tej umiejętności można użyć tylko, kiedy cel nie
+    widzi postaci. Pozwala ona wykonać cios, który
+    jest niemożliwy do zablokowania, oraz zadaje
+    celowi podwójne obrażenia.
+    </string>
+
+    <string name="ostatni_szept_rogue_title"> \t 1.2. Ostatni szept </string>
+    <string name="ostatni_szept_rogue_content">
+        \t Umiejętność podstawowa: Precyzyjne pchnięcie
+        \t Typ: Umiejętność pasywna \n \n
+
+        Ciosy skierowane przeciwko celom leżącym na ziemi
+        (z jakiegokolwiek powodu) zawsze liczą
+        się jako ciosy krytyczne.
+    </string>
+
+    <string name="ogluszenie_title"> \t 1.4. Ogluszenie </string>
+    <string name="ogluszenie_content">
+        \t Umiejętność podstawowa: Precyzyjne pchnięcie \n
+        \t Typ: Umiejętność aktywna, technika ofensywna \n
+        \t Koszt: 1 PK \n \n
+
+        Ta umiejętność pozwala postaci wykonać cios tępym
+        końcem swojej broni, aby ogłuszyć trafiony cel na
+        jedną turę. Cios zawsze zadaje obrażenia od uderzeń
+        pomniejszone o połowę. Jeżeli cel, po uwzględnieniu
+        jego obrony i pancerza odniesie obrażenia, wówczas
+        musi wykonać test aktualnego zdrowia. Jeśli test
+        zakończy się niepowodzeniem, wówczas cel umiejętności
+        zostaje ogłuszony na jedną rundę.
+
+    </string>
+
+    <string name="plaszcz_nocy_rogue_title"> 2. Płaszcz nocy </string>
+    <string name="plaszcz_nocy_rogue_content">
+        \t Typ: Zaklęcie wspierające \n
+        \t Zasięg: Użytkownik \n
+        \t Szansa na powodzenie: \n
+        \t Kości: K6 \n
+        \t Koszt: 1 PM na minutę \n \n
+
+        Pozwala czasowo wzmocnić szansę na Ukrycie użytkownika.
+        Dwukrotność Skuteczności zaklęcia (ustalanej na takiej
+        samej zasadzie, na jakiej liczy się obrażenia) stanowi
+        jaki użytkownik czaru otrzymuje do Ukrycia. Po jednorazowym
+        użyciu efekt trwa do końca walki oraz około minuty poza nią. Podczas
+        walki postać może wykonać rzut za ukrycie w tej samej turze, w której
+        rzuciła zaklęcie. Jeśli czas trwania zaklęcia skończy się, kiedy postać
+        pozostaje ukryta, wówczas musi ona ponownie wykonać rzut za ukrycie,
+        już bez bonusu pochodzącego z zaklęcia.
+    </string>
+
+    <string name="rozmycie_title"> \t 2.1. Rozmycie </string>
+    <string name="rozmycie_content">
+        \t Umiejętność podstawowa: Płaszcz Nocy \n
+        \t Typ: Zaklęcie wspierające \n
+        \t Szansa na powodzenie: +5 \n
+        \t Kości: K8 \n
+        \t Zasięg: Użytkownik \n
+        \t Koszt: 1 PM na turę \n \n
+
+        Pozwala użytkownikowi zniekształcić przestrzeń wokół siebie, aby
+        utrudnić wrogom trafienie się. Podczas celowania w użytkownika tej
+        umiejętności, wszyscy wrogowie otrzymują negatywny modyfikator do
+        Celności oraz Szansy na Powodzenie Zaklęcia, a jego wysokość
+        określają kości zaklęcia. Czas działania tego zaklęcia to jedna
+        runda. Po tym czasie, jeśli postać nie opłaci kosztu zaklęcia ponownie,
+        efekt znika.
+
+    </string>
+
+    <string name="krok_w_ciemnosc_title"> \t 2.2. Rozmycie </string>
+    <string name="krok_w_ciemnosc_content">
+        \t Umiejętność podstawowa: Płaszcz Nocy \n
+        \t Typ: Umiejętność pasywna \n \n
+
+        Po każdym uniku zakończonym powodzeniem, postać może wykonać rzut na
+        Ukrycie. Jeśli rzut ten powiedzie się, postać może wydać 1 PM, aby
+        schować się wśród cieni i zniknąć z oczu przeciwnikom, zyskując status ukrytej.
+
+    </string>
+
+    <string name="duch_title"> \t 2.3. Duch </string>
+    <string name="duch_content">
+        \t Umiejętność podstawowa: Płaszcz Nocy \n
+        \t Typ: Czar wspierający \n
+        \t Zasięg: Użytkownik \n
+        \t Szansa na powodzenie: + 0 \n
+        \t Kości: K12 \n
+        \t Koszt: 3 PM na rundę \n \n
+
+        Pozwala użytkownikowi zakrzywić światło wokół siebie, tak, aby
+        uniemożliwić innym postaciom wykrycie się. Na czas działania
+        tego czaru, użytkownik otrzymuje bonus do Ukrycia na takiej
+        samej zasadzie, jak w przypadku „Płaszcza Nocy” i może wykonać
+        rzut za Ukrycie jeszcze w tej samej turze, w której rzucił to
+        zaklęcie. Jeżeli postać pozostająca pod wpływem tego zaklęcia
+        jest ukryta, to nie da się jej wykryć bez użycia odpowiedniej
+        magii, a co za tym idzie – każdy jej atak traktowany jest, jakby
+        był wyprowadzany z ukrycia. Samą postać da się trafić jedynie przy
+        pomocy ataków obszarowych. Podczas walki efekt tego zaklęcia utrzymuje
+        się jedną rundę, natomiast poza nią – około jednej minuty. Po zakończeniu
+        działania tej umiejętności, jeśli użytkownik ponownie nie opłaci jej kosztu
+        (nie musi ponownie wykonywać rzutu za powodzenie zaklęcia), efekt znika.
+
+    </string>
+
+    <string name="bieglosc_broni_rogue_title"> 3. Płaszcz nocy </string>
+    <string name="bieglosc_broni_rogue_content">
+    \t Typ: Umiejętność pasywna \n \n
+
+    Po zdobyciu tej umiejętności, postać otrzymuje bonus do
+    walki przy pomocy jednej, wybranej broni. Biegłość walki
+    wybraną bronią można później ulepszać, tak, jak normalną
+    umiejętność.
+    </string>
+
+    <string name="bieglosc_broni_miecz_rogue_title"> \t 3.1. Miecz </string>
+    <string name="bieglosc_broni_miecz_rogue_content">
+        I: Jeśli podczas blokowania mieczem gracz wyrzuci wynik równy lub mniejszy
+        niż jego szansa na cios krytyczny, wówczas udało mi się sparować cios i
+        nie ponosi on żadnego kosztu bloku. \n
+        II: Co drugi ruch, postać może zadać wrogowi dwa ciosy zamiast jednego.
+        Każdy z nich może zostać w dowolny sposób wzmocniony. \n
+        III: Kiedy postaci uda się sparować cios, to oprócz redukcji kosztu bloku
+        do zera, wytrąca ona swojego przeciwnika z równowagi. W takiej sytuacji
+        jego ruch kończy się natychmiast, a jeśli dobiegł on już końca – wówczas
+        traci swój następny ruch. \n
+    </string>
+
+    <string name="bieglosc_broni_sztylet_rogue_title"> \t 3.2. Sztylet </string>
+    <string name="bieglosc_broni_sztylet_rogue_content">
+        I: Wyciągnięcie i schowanie sztyletu podczas walki nie wymaga czasu. \n
+        II: Podczas jednej tury postać może wykonać nie jeden, a dwa ataki
+        przy użyciu sztyletu. Innymi słowy, prędkość ataku sztyletem zostaje
+        zwiększona dwukrotnie. \n
+        III: Postać może trzymać nieograniczoną ilość jednakowych sztyletów
+        na jednym polu uzbrojenia (ich ilość musi być zaznaczona). Celność
+        podczas rzucania sztyletem zostaje zwiększona o 5. \n
+
+    </string>
+
+    <string name="bieglosc_broni_kusza_rogue_title"> \t 3.3. Kusza </string>
+    <string name="bieglosc_broni_kusza_rogue_content">
+        I: Użytkownik tej umiej3tności otrzymuje modyfikator +10 do celności
+        podczas korzystania z kuszy. \n
+        II: Koszt uniku i bloku wszystkich postaci, które próbują obronić się
+        przed bełtami wystrzelonymi przez użytkownika tej umiejętności zostaje
+        podniesiony o 1 PK. \n
+        III: Każdy bełt wystrzelony przez postać ignoruje połowę pancerza celu. \n
+
+    </string>
+
+    <string name="przewrot_title"> \t 4.1. Przewrót </string>
+    <string name="przewrot_content">
+        \t Umiejętność podstawowa: Płynność \n
+        \t Typ: Technika defensywna, Wzmocnienie uniku \n
+        \t Koszt: 1 PK \n \n
+
+        Po wykonaniu uniku, postać może aktywować tą umiejętność, aby
+        odskoczyć od swojego przeciwnika i opuścić walkę w zwarciu nie
+        otrzymując przy tym ciosu w plecy.
+
+    </string>
+
+    <string name="piruet_title"> \t 4.2. Piruet </string>
+    <string name="piruet_content">
+        \t Umiejętność podstawowa: Płynność \n
+        \t Typ: Typ: Umiejętność pasywna/technika defensywna, wzmocnienie uniku \n
+        \t Koszt: - / 1 PK \n \n
+
+        Po uniknięciu każdego ciosu (podczas walki wręcz) postać może rzucić kością
+        k4. Wynik „1” oznacza, że atakujący został wytrącony z równowagi. Zamiast
+        rzucać kością, postać może wydać 1 PK i potraktować rzut, taki, jakby na kości
+        wypadło „1”.  Jego tura natychmiast się kończy, a jeśli dobiegła ona już końca
+        – wówczas traci on następną. Ta umiejętność nie działa, jeśli postać zdecyduje
+        się użyć „Odwetu”.
+
+    </string>
+
+    <string name="odwet_title"> \t 4.3. Odwet </string>
+    <string name="odwet_content">
+        \t Umiejętność podstawowa: Płynność \n
+        \t Typ: Umiejętność pasywna/technika defensywna, wzmocnienie uniku \n
+        \t Koszt: - / 1 PK \n \n
+
+        Po uniknięciu każdego ciosu (podczas walki wręcz) postać może rzucić kością
+        k4. Wynik „1” oznacza, że postać może zadać przeciwnikowi cios na normalnych
+        zasadach. Zamiast rzucać kością, postać może wydać 1 PK i potraktować rzut,
+        taki, jakby na kości wypadło „1”. Ta umiejętność nie działa, jeśli postać
+        zdecyduje się użyć „Piruetu”.
+
+    </string>
+
+    <string name="mordercza_seria_rogue_title"> 5. Mordercza seria </string>
+    <string name="mordercza_seria_rogue_content">
+        \t Typ: Umiejętność aktywna, wzmocnienie ataku wręcz \n
+        \t Koszt: 1 PK \n \n
+        Raz na turę, kiedy cios wyprowadzony przez użytkownika zdolności zostanie
+        zablokowany lub uniknięty, może on wykonać jeszcze jeden, identyczny atak,
+        wymierzony w tego samego wroga. Na atak ten działają takie same modyfikatory,
+        jak na pierwszy atak, trzeba jednak wykonać dla niego osobny rzut za obrażenia
+        oraz obronę wroga. Wyprowadzenie drugiego ciosu kosztuje 1PK, niezależnie od
+        kosztu, jaki postać poniosła przy wykonywaniu pierwszego ciosu.
+
+    </string>
+
+    <string name="mordercza_seria_II_rogue_title"> \t 5.1. Mordercza seria II </string>
+    <string name="mordercza_seria_II_rogue_content">
+        \t Umiejętność podstawowa: Mordercza Seria \n
+        \t Typ: Wzmocnienie umiejętności podstawowej \n
+        \t Koszt: 1 PK (łącznie 2 PK) \n \n
+
+        To wzmocnienie umożliwia postaci zadanie trzeciego ciosu w serii, jeżeli drugi
+        (ten będący efektem działania „Morderczej Serii”) także nie dosięgnie celu.
+        Zadanie tego ciosu kosztuje dodatkowy 1 PK.
+
+    </string>
+
+    <string name="mordercza_seria_III_rogue_title"> \t 5.2. Mordercza seria III </string>
+    <string name="mordercza_seria_III_rogue_content">
+        \t Umiejętność podstawowa: Mordercza Seria II \n
+        \t Typ: Wzmocnienie umiejętności podstawowej \n
+        \t Koszt: 1 PK (łącznie 3 PK) \n \n
+
+        Działa to wzmocnienie działa analogicznie do poprzedniego (umożliwia wykonanie
+        łącznej liczby czterech ciosów), z tą różnicą, że dopuszcza wykonanie jednego
+        trafienia w cel bez przerywania serii (to znaczy, że kolejny poziom Morderczej
+        serii może być aktywowany nawet, jeśli poprzedni cios trafił).
+
+    </string>
+
+    <string name="niepowstrzymane_natarcie_rogue_title"> \t 5.3. Niepowstrzymane natarcie </string>
+    <string name="niepowstrzymane_natarcie_rogue_content">
+        \t Umiejętność podstawowa: Mordercza seria \n
+        \t Typ: umiejętność pasywna \n \n
+
+        To wzmocnienie całkowicie znosi limit trafień, które atakujący może wykonać w
+        jednej serii, gdy używa umiejętności Mordercza seria (to oznacza, że kolejny
+        poziom tej umiejętności może być aktywowany, niezależnie od tego, czy poprzedni
+        trafił). Koszt każdego ciosu wyprowadzonego po osiągnięciu limitu zostaje
+        zwiększony o 1 PK.
+
+    </string>
+
+</resources>

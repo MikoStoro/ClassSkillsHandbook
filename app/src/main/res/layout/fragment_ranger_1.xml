@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height = "wrap_content"
+        android:layout_width="match_parent">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+<LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/sokole_oko_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/sokole_oko_title"
+           />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/pewna_reka_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/pewna_reka_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/prosto_w_cel_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/prosto_w_cel_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bieglosc_broni_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bieglosc_broni_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bieglosc_broni_luk_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bieglosc_broni_luk_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bieglosc_broni_kusza_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bieglosc_broni_kusza_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bieglosc_broni_sztylet_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bieglosc_broni_sztylet_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/bieglosc_broni_wlocznia_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/bieglosc_broni_wlocznia_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/plaszcz_nocy_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/plaszcz_nocy_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/strzala_z_mroku_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/strzala_z_mroku_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/cien_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/cien_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/plynnosc_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/plynnosc_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/odwrot_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/odwrot_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/zmiana_pozycji_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/zmiana_pozycji_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_4_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/lekkosc_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/lekkosc_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_4_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/znow_w_grze_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/znow_w_grze_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/slaby_punkt_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/slaby_punkt_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_5_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/spowolnienie_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/spowolnienie_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_5_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/krwawienie_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/krwawienie_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_5_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/oslabienie_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/oslabienie_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_5_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/rozbrojenie_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/rozbrojenie_title"
+    />
+
+    <hakobastvatsatryan.DropdownTextView
+            android:id="@+id/rangerDropdown_5_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bg_drawable_expanded="@drawable/ranger_dropdown_expanded"
+            app:bg_drawable_regular="@drawable/ranger_dropdown_regular"
+            app:content_padding="1dp"
+            app:content_text="@string/egzekucja_content"
+            app:title_text_color="#000000"
+            app:content_text_color="#4d4d4d"
+            app:panel_padding="1dp"
+            app:title_text="@string/egzekucja_title"
+    />
+
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

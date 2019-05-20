@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item android:title="Mag">
+        <menu>
+            <item
+                    android:id="@+id/mage_1"
+                    android:title="Krąg I"/>
+            <item
+                    android:id="@+id/mage_2"
+                    android:title="Krąg II"/>
+            <item
+                android:id="@+id/mage_3"
+                android:title="Krąg III" />
+        </menu>
+    </item>
+
+    <item android:title="Łotr">
+        <menu>
+            <item
+                android:id="@+id/rogue_1"
+                android:title="Krąg I" />
+
+            <item
+                android:id="@+id/rogue_2"
+                android:title="Krąg II" />
+
+            <item
+                android:id="@+id/rogue_3"
+                android:title="Krąg III" />
+        </menu>
+    </item>
+
+    <item android:title="Wojownik">
+        <menu>
+            <item
+                android:id="@+id/warrior_1"
+                android:title="Krąg I" />
+
+            <item
+                android:id="@+id/warrior_2"
+                android:title="Krąg II"  />
+
+            <item
+                android:id="@+id/warrior_3"
+                android:title="Krąg III"  />
+        </menu>
+    </item>
+
+    <item android:title="Strzelec">
+        <menu>
+            <item
+                android:id="@+id/ranger_1"
+                android:title="Krąg I" />
+
+            <item
+                android:id="@+id/ranger_2"
+                android:title="Krąg II" />
+
+            <item
+                android:id="@+id/ranger_3"
+                android:title="Krąg III" />
+        </menu>
+    </item>
+
+
+</menu>
